@@ -7,6 +7,7 @@ use Getopt::Long;
 use HTTP::Proxy;
 use HTTP::Proxy::GreaseMonkey;
 use HTTP::Proxy::GreaseMonkey::ScriptHome;
+use HTTP::Proxy::GreaseMonkey::Redirector;
 use File::Spec;
 use Pod::Usage;
 
@@ -16,11 +17,11 @@ App::GreaseMonkeyProxy - Command line GreaseMonkey proxy
 
 =head1 VERSION
 
-This document describes App::GreaseMonkeyProxy version 0.02
+This document describes App::GreaseMonkeyProxy version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -172,6 +173,10 @@ sub run {
             mime     => 'text/html',
             response => $gm
         );
+        # Make the redirector
+        my $redir = HTTP::Proxy::GreaseMonkey::Redirector->new;
+        $redir->passthru( $gm->get_passthru_key );
+        $proxy->push_filter( request => $redir, );
         $proxy->start;
     }
 }

@@ -9,6 +9,10 @@ var new_links = {
     'CPAN Dependencies': function(url, name) {
         return 'http://cpandeps.cantrell.org.uk/?module='
             + escape(make_module_name(name));
+    },
+    'CPANTS': function(url, name) {
+        return 'http://cpants.perl.org/dist/overview/'
+            + escape(name);
     }
 };
 

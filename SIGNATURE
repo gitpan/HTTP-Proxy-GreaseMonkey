@@ -14,19 +14,19 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 e0b901acd04cf9e6b843371eb2429c6719a3f89a Changes
+SHA1 42720d38646e53dc59867300263e8584b9f0c6a4 Changes
 SHA1 5a31beef3548574f8731d089939f08334e488f69 MANIFEST
-SHA1 66f29a92905881d689c36c4d7bc5d14b141bad15 META.yml
-SHA1 6a1ab810f90224b7b3e2fb4facea1af96484d9ec Makefile.PL
-SHA1 813c2590c392a0e730d53d57c7eaff2ca88af98b README
-SHA1 c581e0ce094533ca058bf85c1507766224327b7a examples/cpansearch.user.js
-SHA1 202402c80f06758342ae92632756b9f50438b07f examples/gmproxy
+SHA1 5bcec527c15be35624779533bd8107afa2952e69 META.yml
+SHA1 cbef165bc7786b505146e1b51d762691fd4ba911 Makefile.PL
+SHA1 63763320d25617f126e1b9b3fa07b1be45c3648f README
+SHA1 fd09d23824527a33ca03b85c7b0ccd719a96a4f0 examples/cpansearch.user.js
+SHA1 f20066158e029600c9f1e0e01b180a1cd5c12fd8 examples/gmproxy
 SHA1 3156fb5ef8be53635ef8fd259b18ae8cd17af7ff examples/net.hexten.gmproxy.plist
 SHA1 1ff0258e0af589757cb38447201a793875786fe9 helper/patchbin.PL
-SHA1 e41bafecc016af3b1a67c57c3679d9082bb9e25c lib/App/GreaseMonkeyProxy.pm
-SHA1 2d795c1a02c9f7169fd3d6c9658217847cfdb579 lib/HTTP/Proxy/GreaseMonkey.pm
-SHA1 3ca494a5c481e04d1a5f2fd45de1a72d47ce9830 lib/HTTP/Proxy/GreaseMonkey/Script.pm
-SHA1 91bdac17d1f34ef6d702bf91640f0954b18b976f lib/HTTP/Proxy/GreaseMonkey/ScriptHome.pm
+SHA1 70338fc89be200b5c59e387d2a5c654848a37e77 lib/App/GreaseMonkeyProxy.pm
+SHA1 3f738d459f46b4e03c5bd0119bb1cb7c662ae773 lib/HTTP/Proxy/GreaseMonkey.pm
+SHA1 8a966b06db734f31b24308f956806c06ed593b80 lib/HTTP/Proxy/GreaseMonkey/Script.pm
+SHA1 7fd496044c4de3a700e8cfd64c645c75aa56bd7e lib/HTTP/Proxy/GreaseMonkey/ScriptHome.pm
 SHA1 d7e32a0745aad60dea3353a33220e99ed13446bf t/00.load.t
 SHA1 37bf30620710ffd47c46b9271c8ac3f682dc310b t/gmproxy.t
 SHA1 bdd09cf1930990e0da69bcd59e551c6b162f24d0 t/pod-coverage.t
@@ -38,7 +38,7 @@ SHA1 aa02b32308e03210365e343744a9df821205fb46 t/scripts/u2.js
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFHZWcDwoknRJZQnCERAgYKAKCbQQZBtkEDM8vi5DGYgLmclqnmswCg02/e
-BTzqeKiCGf7d0siW5QD45SI=
-=4Nr9
+iD8DBQFHZcs+woknRJZQnCERAsk5AKDDzxqQdJkCtil26PfMYEnohZjwAQCcD52a
+Q68PnmHCV4kRotC2Zu4IUac=
+=0iAM
 -----END PGP SIGNATURE-----

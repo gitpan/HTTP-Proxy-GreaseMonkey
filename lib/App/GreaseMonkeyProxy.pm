@@ -16,11 +16,11 @@ App::GreaseMonkeyProxy - Command line GreaseMonkey proxy
 
 =head1 VERSION
 
-This document describes App::GreaseMonkeyProxy version 0.01
+This document describes App::GreaseMonkeyProxy version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -309,11 +309,6 @@ L<http://rt.cpan.org>.
 =head1 AUTHOR
 
 Andy Armstrong  C<< <andy@hexten.net> >>
-
-Original Perfect Paper Passwords implementation by Steve Gibson. More details
-here:
-
-    http://www.grc.com/ppp.htm
 
 =head1 LICENCE AND COPYRIGHT
 

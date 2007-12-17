@@ -13,11 +13,11 @@ HTTP::Proxy::GreaseMonkey - Run GreaseMonkey scripts in any browser
 
 =head1 VERSION
 
-This document describes HTTP::Proxy::GreaseMonkey version 0.01
+This document describes HTTP::Proxy::GreaseMonkey version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -47,8 +47,12 @@ GreaseMonkey proxy issue a command something like this:
 
     $ gmproxy ~/.userscripts
 
+By default the proxy will listen on port 8030. The supplied directory is
+scanned before each request; any scripts that have been updated or added
+will be reloaded and any that have been deleted will be discarded.
+
 On MacOS F<net.hexten.gmproxy.plist> is created in the project home
-directory. To gmproxy as a launch item do
+directory. To add gmproxy as a launch item do
 
     $ cp net.hexten.gmproxy.plist ~/Library/LaunchAgents
     $ launchctl load ~/Library/LaunchAgents/net.hexten.gmproxy.plist
@@ -56,6 +60,11 @@ directory. To gmproxy as a launch item do
 
 Patches welcome from anyone who has equivalent instructions for other
 platforms.
+
+=head2 Limitations
+
+Currently none of the GM_* functions are supported. If anyone has a good
+idea about how to support them please drop me a line.
 
 =head1 INTERFACE 
 
@@ -163,7 +172,8 @@ __END__
 
 =head1 CONFIGURATION AND ENVIRONMENT
   
-HTTP::Proxy::GreaseMonkey requires no configuration files or environment variables.
+HTTP::Proxy::GreaseMonkey requires no configuration files or environment
+variables.
 
 =head1 DEPENDENCIES
 

@@ -14,20 +14,20 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 42720d38646e53dc59867300263e8584b9f0c6a4 Changes
+SHA1 9a7f583cd4804599c3cb50ca84fd1ce70d90ff11 Changes
 SHA1 b9a480a40e2c7617662ea157aac2a1b190c8a954 MANIFEST
-SHA1 9e97aeb6b8d71aa10d38109e6081520c2a456ee9 META.yml
-SHA1 d31a592da6959039e4c63792e7bc761894115cf9 Makefile.PL
-SHA1 393f0441e8ddccee5410e25c23d37e1674ff4a8f README
+SHA1 09c64aa267952ab97640663bf795549018851f82 META.yml
+SHA1 31f94cb45652d4c3d921e31685bb70dcd47942ff Makefile.PL
+SHA1 1d48c84deb54710bc792d03a17444b7134f38b7f README
 SHA1 5d2f5199598d910c5e48495aff870f551f315fdd examples/cpansearch.user.js
 SHA1 f20066158e029600c9f1e0e01b180a1cd5c12fd8 examples/gmproxy
 SHA1 3156fb5ef8be53635ef8fd259b18ae8cd17af7ff examples/net.hexten.gmproxy.plist
 SHA1 1ff0258e0af589757cb38447201a793875786fe9 helper/patchbin.PL
-SHA1 b479d336b2fa4c60d88c8ca59441cfc35258e249 lib/App/GreaseMonkeyProxy.pm
-SHA1 b4f744e0506a56092d37112caaee98032ee515d9 lib/HTTP/Proxy/GreaseMonkey.pm
-SHA1 835a67cb9a43c7874e0bcd63aa3b0046979a1508 lib/HTTP/Proxy/GreaseMonkey/Redirector.pm
-SHA1 35a1903438db32ce883bc276101f85c731ecd7f2 lib/HTTP/Proxy/GreaseMonkey/Script.pm
-SHA1 9389e7f0ffdb7a234b028a72ed20283abce1d72e lib/HTTP/Proxy/GreaseMonkey/ScriptHome.pm
+SHA1 22b716df6945b18c010c7b1fff8a63eba4aaca3f lib/App/GreaseMonkeyProxy.pm
+SHA1 ff0a93931c3e325ea4459b293226181dd5872c24 lib/HTTP/Proxy/GreaseMonkey.pm
+SHA1 03ee5ac80916c46895b67779a5e103698d9fc069 lib/HTTP/Proxy/GreaseMonkey/Redirector.pm
+SHA1 72ee43b410e6a5639d356477af51f8b35ec81a87 lib/HTTP/Proxy/GreaseMonkey/Script.pm
+SHA1 b5412d0508f642d4d8c41c81655af55f6f8e77db lib/HTTP/Proxy/GreaseMonkey/ScriptHome.pm
 SHA1 e843225e50f587ebdaa067aec3c6bfb05a474040 t/00.load.t
 SHA1 75bae8c506adc17380aed89b81c01d0e3c7e9128 t/gmproxy.t
 SHA1 bdd09cf1930990e0da69bcd59e551c6b162f24d0 t/pod-coverage.t
@@ -39,7 +39,7 @@ SHA1 aa02b32308e03210365e343744a9df821205fb46 t/scripts/u2.js
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFHZrqTwoknRJZQnCERAhbsAJ4iFcIGqYB2WT4K9rzImOWQMGOlbwCg22P4
-k792q2XVIhvfWzGhlGd/xKk=
-=9nY4
+iD8DBQFHZ88VwoknRJZQnCERAgTbAKDTZvl4AxEmDAEUCTrvxVLGtmrl7wCg1Weg
+WvoBDkhCAmxhctLRm6ScIwc=
+=QTlP
 -----END PGP SIGNATURE-----

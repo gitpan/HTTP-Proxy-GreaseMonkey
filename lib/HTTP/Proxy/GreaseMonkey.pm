@@ -4,7 +4,6 @@ use warnings;
 use strict;
 use Carp;
 use HTTP::Proxy::GreaseMonkey::Script;
-use JSON;
 use Data::UUID;
 
 use base qw( HTTP::Proxy::BodyFilter );
@@ -15,11 +14,11 @@ HTTP::Proxy::GreaseMonkey - Run GreaseMonkey scripts in any browser
 
 =head1 VERSION
 
-This document describes HTTP::Proxy::GreaseMonkey version 0.04
+This document describes HTTP::Proxy::GreaseMonkey version 0.05
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 SYNOPSIS
 
